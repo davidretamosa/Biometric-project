@@ -1,4 +1,4 @@
-import serial
+import serial # type: ignore
 import json
 
 # ================== PARÀMETRES ==================
@@ -36,7 +36,7 @@ valor_pic_qrs = None
 temps_pic_qrs = None
 
 temps_ultim_qrs = None
-
+# mirar si puedo ejecutar el codigo con el repositorio clonado en mi pc
 
 # ================== FUNCIONS ==================
 def calcular_llindar_adaptatiu():
